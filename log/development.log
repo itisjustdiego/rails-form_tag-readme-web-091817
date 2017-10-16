@@ -112,3 +112,207 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-16 01:19:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 18ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2017-10-16 01:19:43 -0400
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (120.2ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.9ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (146.2ms)
+
+
+Started GET "/new" for ::1 at 2017-10-16 01:20:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.0ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.7ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2017-10-16 01:25:35 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 233ms (Views: 232.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-10-16 01:25:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-10-16 01:25:35 -0400
+
+
+Started GET "/posts/new" for ::1 at 2017-10-16 01:28:40 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=d&post%5Bdescription%5D=A" for ::1 at 2017-10-16 01:28:55 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"d", "description"=>"A"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=d&post%5Bdescription%5D=a" for ::1 at 2017-10-16 01:29:02 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"d", "description"=>"a"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=d&post%5Bdescription%5D=a" for ::1 at 2017-10-16 01:29:58 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"d", "description"=>"a"}}
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=%2C&post%5Bdescription%5D=m" for ::1 at 2017-10-16 01:30:03 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>",", "description"=>"m"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2017-10-16 01:32:59 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=s&post%5Bdescription%5D=c&authenticity_token=Phyl699RdAH3PbNtunxwZtD9eDSCxpqRyJ7EHqudy1z2Dp0caTK5M%2B002q8%2FukbMMAbO9a60BHIb4OkOIax%2BAw%3D%3D" for ::1 at 2017-10-16 01:33:03 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"s", "description"=>"c"}, "authenticity_token"=>"Phyl699RdAH3PbNtunxwZtD9eDSCxpqRyJ7EHqudy1z2Dp0caTK5M+002q8/ukbMMAbO9a60BHIb4OkOIax+Aw=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-16 01:34:02 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2017-10-16 01:34:07 -0400
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/bernardodorado/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.8ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/bernardodorado/.rvm/gems/ruby-2.3.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (146.4ms)
